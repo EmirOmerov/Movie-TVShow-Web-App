@@ -1,0 +1,68 @@
+.movieComponent {
+  background-color: black;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 2rem;
+  left: 40%;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.moviesComponent {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+  margin-top: 1.5rem;
+}
+.ulMovies {
+  list-style-type: none;
+}
+.movieDetailComponent {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 50rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem 1rem 1rem 1rem;
+  position: absolute;
+  left: 20%;
+  top: 10rem;
+}
+.movieTitle {
+  position: absolute;
+  top: 11.5rem;
+  height: 5.2rem;
+  text-align: center;
+  text-align-last: auto;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.posterComponent {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+.backButtonComponent {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 3px solid #000000;
+  width: 8rem;
+  height: 2rem;
+  color: rgb(0, 0, 0);
+  position: relative;
+  left: 19.3rem;
+  top: 7rem;
+  border-radius: 5px;
+}
+.backButtonComponent:hover {
+  background-color: #af4c4c7a; /* Green */
+  color: rgb(3, 0, 0);
+}
